@@ -21,8 +21,84 @@
       <link href="/2023/11/28/2023-11-28.%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/"/>
       <url>/2023/11/28/2023-11-28.%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/</url>
       
-        <content type="html"><![CDATA[<h2 id="这是第一篇文章"><a href="#这是第一篇文章" class="headerlink" title="这是第一篇文章"></a>这是第一篇文章</h2>]]></content>
+        <content type="html"><![CDATA[<h2 id="这是第一篇文章"><a href="#这是第一篇文章" class="headerlink" title="这是第一篇文章"></a>这是第一篇文章</h2><p>该文章主要用于测试。</p>]]></content>
       
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>个人日记</title>
+      <link href="/2023/11/28/%E4%B8%AA%E4%BA%BA%E6%97%A5%E8%AE%B0/"/>
+      <url>/2023/11/28/%E4%B8%AA%E4%BA%BA%E6%97%A5%E8%AE%B0/</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      <categories>
+          
+          <category> 个人日记 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>关于hexo</title>
+      <link href="/2023/11/28/%E5%85%B3%E4%BA%8Ehexo/"/>
+      <url>/2023/11/28/%E5%85%B3%E4%BA%8Ehexo/</url>
+      
+        <content type="html"><![CDATA[<h2 id="1-前言"><a href="#1-前言" class="headerlink" title="1. 前言"></a>1. 前言</h2><p>Hexo是一个快速、简洁且高效的博客框架。Hexo 使用 Markdown（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页。即把用户的markdown文件，按照指定的主题解析成静态网页。</p><h2 id="2-主要命令"><a href="#2-主要命令" class="headerlink" title="2. 主要命令"></a>2. 主要命令</h2><p>hexo s 启动服务器。默认情况下，访问网址为： <a href="http://localhost:4000/%E3%80%82">http://localhost:4000/。</a><br>hexo g 生成静态文件。<br>hexo d 部署网站。<br>hexo cl 清除缓存文件 (db.json) 和已生成的静态文件 (public)。<br>hexo -v 显示 Hexo 版本。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> hexo </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>诗歌</title>
+      <link href="/2023/11/28/%E8%AF%97%E6%AD%8C/"/>
+      <url>/2023/11/28/%E8%AF%97%E6%AD%8C/</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      <categories>
+          
+          <category> 诗歌 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>随想</title>
+      <link href="/2023/11/28/%E9%9A%8F%E6%83%B3/"/>
+      <url>/2023/11/28/%E9%9A%8F%E6%83%B3/</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      <categories>
+          
+          <category> 随想 </category>
+          
+      </categories>
       
       
     </entry>
@@ -33,9 +109,9 @@
     
     
     <entry>
-      <title>关于</title>
-      <link href="/about/index.html"/>
-      <url>/about/index.html</url>
+      <title>分类</title>
+      <link href="/categories/index.html"/>
+      <url>/categories/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -55,9 +131,20 @@
     
     
     <entry>
-      <title>友链</title>
-      <link href="/link/index.html"/>
-      <url>/link/index.html</url>
+      <title></title>
+      <link href="/css/custom.css"/>
+      <url>/css/custom.css</url>
+      
+        <content type="html"><![CDATA[/* 页脚与头图透明 */#footer {    background: transparent !important;  }  #page-header {    background: transparent !important;  }    /* 白天模式遮罩透明 */  #footer::before {    background: transparent !important;  }  #page-header::before {    background: transparent !important;  }    /* 夜间模式遮罩透明 */  [data-theme="dark"] #footer::before {    background: transparent !important;  }  [data-theme="dark"] #page-header::before {    background: transparent !important;  }]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>关于</title>
+      <link href="/about/index.html"/>
+      <url>/about/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -77,9 +164,9 @@
     
     
     <entry>
-      <title>音乐</title>
-      <link href="/music/index.html"/>
-      <url>/music/index.html</url>
+      <title>友链</title>
+      <link href="/link/index.html"/>
+      <url>/link/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -91,6 +178,17 @@
       <title>标签</title>
       <link href="/tags/index.html"/>
       <url>/tags/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>音乐</title>
+      <link href="/music/index.html"/>
+      <url>/music/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
